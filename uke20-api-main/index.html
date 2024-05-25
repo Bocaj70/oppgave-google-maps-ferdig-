@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleMain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"  />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    
+    <title>My API - main</title>
+</head>
+<body>
+    <header class="header_main">
+        <div id="menu_header">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id="menu_bar">
+            <input id="searchbar" type="text" placeholder=" text here!" name="searchbar">
+         <button type="submit" onclick="show_me()"><p><i class="fa-solid fa-magnifying-glass"></i></p></button>
+
+        </div>
+        <div id="logo_main">
+            <p><i class="fa-solid fa-plate-wheat"></i></p>
+            
+
+        </div>
+        
+    </header>
+    <section class="sidebar">
+        <div id="sidebar_options">
+            <h2 class="info">Name: <span id="name"></span></h2>
+            <h2 class="info">City: <span id="city"></span></h2>
+            <h2 class="info">State: <span id="state"></span></h2>
+            <h2 class="info">latitude: <span id="lat"></span></h2>
+            <h2 class="info">longitude: <span id="long"></span></h2>
+            <h2 class="info"><span id="web"></span></h2>
+        </div>
+
+    </section>
+    <section class="main_main">
+        <div id="info">
+            <h1>My API</h1>
+            <p>API is a set of rules and mechanisms by which one application or component interacts with the others. The API is a programmatic way for different pieces of software to communicate with each other. It is a set of rules that allows one piece of software application to talk to another. It is a software intermediary that allows two applications to talk to each other. In other words, an API is the messenger that delivers your request to the provider that you're requesting it from and then delivers the response back to you.</p>
+        </div>
+
+        <div id="map1"></div>
+        <!-- <div id="map
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8038.213638376258!2d10.11078308020771!3d59.7568693971846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464123a389ad4975%3A0x1e284166b46e0fa6!2s%C3%85ssiden%20videreg%C3%A5ende%20skole!5e0!3m2!1sno!2sno!4v1715067126066!5m2!1sno!2sno"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div> -->
+
+
+    </section>
+    <section class="images_main">
+        <p><i id="card" class="fa-regular fa-image"></i></p>
+        <p><i id="card" class="fa-regular fa-image"></i></p>
+        <p><i id="card" class="fa-regular fa-image"></i></p>
+        <p><i id="card" class="fa-regular fa-image"></i></p>
+        <p><i id="card" class="fa-regular fa-image"></i></p>
+   
+        
+        
+    </section>
+    <footer>
+        <div id="info1">
+            <ul>
+                <li>info</li>
+                <li>adresse</li>
+                <li>kontakt</li>
+                <li>logo</li>
+            </ul>
+        </div>
+        <div id="footer">
+            <p>footer</p>
+
+        </div>
+        <div id="info2">
+            <ul>
+                <li>mer info her</li>
+                <li>logoer</li>
+                <li>lenker til eksterne ressurser</li>
+                <li>copyright</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="code/menu.js"></script>
+
+    
+</body>
+</html>
